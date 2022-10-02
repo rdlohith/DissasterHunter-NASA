@@ -1,0 +1,124 @@
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+ul.tab li {float: left;}
+
+ul.tab li a {
+    display: inline-block;
+    color: #eeeeee;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+ul.tab li a:hover {background-color:rgb(143, 143, 143); background-color: rgba(143, 143, 143, 0.68);}
+ul.tab li a[target] {background-color:rgb(67, 167, 199);background-color: rgba(67, 167, 199, 1);}
+
+.tabcontentLeft {
+    display: none;
+    padding: 6px 11px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    height: 100%;
+    top: 38px;
+    position: fixed;
+    background: rgba(46,74,110,0.6);
+    color: #FFFFFF;
+    width: 20.5%;
+    left: 0;
+    overflow: auto;
+}
+
+.tabcontentRight {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    height: 100%;
+    top: 38px;
+    position: fixed;
+    background: rgb(46, 74, 110);
+    background: rgba(46,74,110,0.5);
+    color: #FFFFFF;
+    width: 15%;
+    right: 0;
+    overflow: auto;
+}
+
+.tabcontentInfo {
+    font-size: 10px;
+    display: none;
+    height: 100%;
+    top: 95px;
+    position: fixed;
+    color: #FFFFFF;
+    width: auto;
+    overflow: auto;
+}
+
+.tabcontentSpecial {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.tabcontentGraphs {
+    display: none;
+    top: 95px;
+    position: fixed;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'megrim';
+    src: url('./new_eq_app_files/Megrim.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Helvetica Light';
+    src: url('./new_eq_app_files/Helvetica Light.ttf') format('truetype');
+}
+
+.logo{
+    font-family: 'megrim', Fallback, sans-serif;
+    font-size: 16px;
+}
+
+.containerFont {
+    font-family: 'Helvetica Light', Fallback, sans-serif;
+}
+
+.smallRule {
+    border: 1px solid #FFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.leftTabPadding {
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.tourButtonsUP {
+    position: fixed;
+    bottom: 5%;
+    height: 5%;
+}
+
+.tourButtonsDOWN {
+    position: fixed;
+    bottom: 5%;
+    right: 50%;
+    height: 5%;
+}
