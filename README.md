@@ -1,4 +1,4 @@
-# *Disaster Hunter*: Earthquake Activity Visualizer
+# *Disaster Hunter*: Tsunami Activity Visualizer
 
 1. How to Run *disaster hunter*
 -----
@@ -6,7 +6,7 @@ You can download or clone the repository in to local storage and run the `index.
 
 2. How To Use
 -----
-### Querying Earthquakes:
+### Querying Tsunamis:
   * Tour the events using the bottom two arrow buttons. Change how you tour the earthquakes, either by magnitude or time by selecting the color mode in the controls menu.
   * Use the 'from' and 'to' calendar fill-ins to change the date range of the earthquakes visualized.
   * The magnitude slider allows you to filter how large the earthquakes being visualized are.
