@@ -1,6 +1,6 @@
 # *Disaster Hunter*: Tsunami Activity Visualizer
 
-1. How to Run *disaster hunter*
+1. How to Run *Disaster hunter*
 -----
 You can download or clone the repository in to local storage and run the `index.html` in a webserver.
 
